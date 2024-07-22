@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <title>E-Commerce</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="header-middle-section">
+        <input id="searchInput" class="input-bar" name="name" type="text" placeholder="Search" />
+      </div>
+      <div class="header-middle-section">
+        <select id="categorySelect" class="input-bar">
+          <option selected value="all">All Categories</option>
+          <option value="men's clothing">Men</option>
+          <option value="women's clothing">Women</option>
+        </select>
+      </div>
+      <div class="header-middle-section">
+        <input id="lowPriceInput" class="input-bar" type="number" placeholder="Low Price" />
+      </div>
+      <div class="header-middle-section">
+        <input id="highPriceInput" class="input-bar" type="number" placeholder="High Price" />
+      </div>
+      <div class="header-middle-section">
+        <button id="applyFilterButton" class="apply-filter">Apply Filters</button>
+      </div>
+      <a class="cart-link header-link" href="cart.html">
+        <img class="cart-icon" src="styles/icons/cart-icon.png" />
+        <div  id="cartQuantity" class="cart-quantity">0</div>
+        <div  class="cart-text">Cart</div>
+      </a>
+    </div>
+    <!-- End Header -->
+    <!-- Start Products Section -->
+    <div class="container"></div>
+    <!-- End Products Section -->
+    <script src="dist/main.js"></script>
+  </body>
+</html>
+
